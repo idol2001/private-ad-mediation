@@ -117,8 +117,8 @@ class SDB {
       return true;
     }
     catch(Amazon_SimpleDB_Exception $ex) {
-      select($domain, $aaa, $where, $showAliveOnly, $attempts-1);
-      // echo("Caught Exception: ".$ex->getMessage()."<br />\n");
+      //select($domain, $aaa, $where, $showAliveOnly, $attempts-1);
+      echo("Caught Exception: ".$ex->getMessage()."<br />\n");
       // echo("Response Status Code: ".$ex->getStatusCode()."<br />\n");
       // echo("Error Code: ".$ex->getErrorCode()."<br />\n");
       // echo("Error Type: ".$ex->getErrorType()."<br />\n");

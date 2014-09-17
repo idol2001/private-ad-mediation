@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 import com.amazonaws.services.simpledb.AmazonSimpleDB;
+import com.amazonaws.AmazonServiceException;
 import com.amazonaws.services.simpledb.model.CreateDomainRequest;
 
 import org.apache.log4j.Logger;
@@ -42,15 +43,13 @@ public class Invoker {
 	
 	public static void main(String[] args) {
         sdb = AdWhirlUtil.getSDB();
-        
-		/*
+
 		try {
 			setupSimpleDB();
-		} catch (AmazonSimpleDBException e) {
+		} catch (AmazonServiceException e) {
 			log.fatal("Unable to initialize SimpleDB databases: " + e.getMessage());
 			System.exit(0);
 		}
-		*/
 
 		CacheUtil.initalize();
 		CacheUtil.preload();
