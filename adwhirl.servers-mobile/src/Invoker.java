@@ -43,18 +43,18 @@ public class Invoker {
 	
 	public static void main(String[] args) {
         sdb = AdWhirlUtil.getSDB();
-
+/*
 		try {
 			setupSimpleDB();
 		} catch (AmazonServiceException e) {
 			log.fatal("Unable to initialize SimpleDB databases: " + e.getMessage());
 			System.exit(0);
 		}
-
+*/
 		CacheUtil.initalize();
 		CacheUtil.preload();
 
-		Server server = new Server(80);
+		Server server = new Server(8080);
 
 		//import org.mortbay.thread.QueuedThreadPool;
 		/*

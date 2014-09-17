@@ -43,11 +43,11 @@ public class AdWhirlUtil {
 	public static final String DOMAIN_USERS_UNVERIFIED = "users_unverified";
 
         public static final String myAccessKey =
-            "AKIAIFHW3OC2JNMSWWQQ";
+            "CHANGEME";
 
 
         public static final String mySecretKey =
-            "20IyFMoWX0NJhEzxs7GK/vHdZ0WenwJ3x/Yf4ju4";
+            "CHANGEME";
 
 
 	//Special characters need to be escaped.

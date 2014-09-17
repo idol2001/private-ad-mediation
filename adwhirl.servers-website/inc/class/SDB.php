@@ -33,11 +33,11 @@ class SDB {
   private static $instance = null;
 
   private static $SDB_ACCESS_KEY_ID = 
-  	  'AKIAIFHW3OC2JNMSWWQQ';
+  	  'CHANGEME';
 
 
   private static $SDB_SECRET_ACCESS_KEY = 
-  	  '20IyFMoWX0NJhEzxs7GK/vHdZ0WenwJ3x/Yf4ju4';
+  	  'CHANGEME';
 
 
   public static function uuid() {
