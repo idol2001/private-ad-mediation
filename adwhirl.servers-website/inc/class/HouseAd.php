@@ -102,17 +102,17 @@ class HouseAd extends SDBObject {
   }
   
   public static $HOUSEAD_BUCKET = 
-  	 'CHANGEME';
+  	 'private-ad-mediation';
 
 
   public static $HOUSEAD_BUCKET_PREFIX = 'http://s3.amazonaws.com/';
 
   public static $HOUSEAD_AWS_KEY = 
-  	 'CHANGEME';
+  	 'AKIAIFHW3OC2JNMSWWQQ';
 
 
   public static $HOUSEAD_AWS_SECRET = 
-  	 'CHANGEME';
+  	 '20IyFMoWX0NJhEzxs7GK/vHdZ0WenwJ3x/Yf4ju4';
 
 
   const HOUSEAD_TYPE_BANNER = 1;
